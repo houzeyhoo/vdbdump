@@ -1,5 +1,5 @@
 # vdbdump
-CLI tool for dumping contents of [ProtonSDK](https://github.com/SethRobinson/proton)'s VariantDB file.
+CLI tool for dumping contents of [ProtonSDK](https://github.com/SethRobinson/proton)'s VariantDB files.
 
 ## Compiling
 The project should compile fine with any non-ancient GCC or MSVC compiler. There are build scripts (build.sh for Linux and build.bat for Windows) included to simplify the process. The only non-C99-compliant thing is the use of ##__VA_ARGS__, which should be supported by modern GCC and MSVC anyway.
